@@ -2,6 +2,8 @@ import React  from 'react';
 import ImageSlider from 'react-native-image-slider';
 
 
+
+
 class Slide extends React.Component {
   render() {
 
