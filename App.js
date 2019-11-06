@@ -3,8 +3,6 @@ import {Header, SearchBar } from 'react-native-elements';
 import Slide from './Slide';
 import {View, ScrollView} from 'react-native';
 
-
-
 class App extends Component {
 
   state = {
@@ -42,7 +40,7 @@ class App extends Component {
         onChangeText={this.updateSearch}
         value={search}        
       />
-      <View style={{height: 200}}>
+      <View style={{height: 201}}>
     <Slide  />
     </View>
     
@@ -52,5 +50,7 @@ class App extends Component {
     )
   }
 }
+
+
 
 export default App;
